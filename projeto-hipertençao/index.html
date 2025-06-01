@@ -1,175 +1,322 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1" />
     <title>SAÙDEBP</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="/src/css/nav.css">
-    <link rel="stylesheet" href="/src/css/vlibras.css">
+    <link rel="stylesheet" href="../projeto-hipertençao/src/css/style.css" />
+    <link rel="stylesheet" href="../projeto-hipertençao/src/css/nav.css" />
+    <link rel="stylesheet" href="../projeto-hipertençao/src/css/vlibras.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  </head>
+  <body>
     <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
       </div>
+    </div>
     <header class="header">
-        <nav>
-            <a class="logo" href="#top">SaúdeBP</a>
-            <div class="mobile-menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="#secao1">Sintomas</a></li>
-                <li><a href="#secao2">Causas</a></li>
-                <li><a href="#secao3">Diagnóstico</a></li>
-                <li><a href="#secao4">Ajuda</a></li>
-            </ul>
-          </nav>
+      <nav>
+        <a class="logo" href="#top">SaúdeBP</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#secao1">Sintomas</a></li>
+          <li><a href="#secao2">Causas</a></li>
+          <li><a href="#secao3">Diagnóstico</a></li>
+          <li><a href="#secao4">Ajuda</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="container-1" id="top">
-            <h1>Bem-vindo ao SaúdeBP</h1>
-            <p>Seu portal sobre hipertensão, uma condição caracterizada pela pressão arterial elevada que pode levar a sérias complicações de saúde se não for gerenciada. Muitas vezes silenciosa, a hipertensão exige conscientização e ação precoce. Aqui, você encontrará informações essenciais sobre sintomas, causas, prevenção e diagnóstico, além de recursos para apoio e tratamento. Vamos juntos caminhar em direção a um controle efetivo da pressão arterial e a uma vida mais saudável.</p>
-               <div class="foto">
-                   <img src="/foto2.png" alt="hipertensão">
-              </div>
-        </div>
-    </main>
-    <main>
-        <div class="container-1">
-            <h1>O que é Hipertensão?</h1>
-            <p>A hipertensão, comumente conhecida como pressão alta, é uma condição médica caracterizada por níveis elevados de pressão no sistema arterial, o que significa que o coração precisa trabalhar mais do que o normal para circular o sangue através dos vasos sanguíneos. Especificamente, é diagnosticada quando as leituras de pressão arterial de uma pessoa são consistentemente 140 milímetros de mercúrio (mm Hg) para a medida sistólica (número superior) ou 90 mm Hg para a medida diastólica (número inferior) ou mais.</p>
-        </div>
-    </main>
-    <main>
-        <div class="container-1">
-            <h1>Consequências da Hipertensão</h1>
-            <p>A hipertensão é um importante fator de risco para várias condições graves de saúde. Sem tratamento, a pressão arterial elevada pode causar danos significativos ao coração e aos vasos sanguíneos, aumentando o risco de doença cardíaca coronariana, acidente vascular cerebral (AVC), insuficiência renal e perda de visão. Além disso, a hipertensão pode contribuir para a insuficiência cardíaca ao exigir que o coração trabalhe mais intensamente para bombear o sangue, o que pode enfraquecer o músculo cardíaco ao longo do tempo.</p>
-            <br>
-            <p>Por ser frequentemente assintomática, a hipertensão pode progredir sem ser detectada, levando a danos nos órgãos vitais antes mesmo que o indivíduo esteja ciente de sua condição. Por isso, a medição regular da pressão arterial é essencial para o diagnóstico precoce e o início oportuno do tratamento, minimizando assim o risco de complicações a longo prazo e contribuindo para uma vida mais longa e saudável.</p>
-        </div>
-    </main>
-    <main id="secao1">
-        <div class="container-1" id="secao1">
-            <h1>Sintomas</h1>
-            <p>Os sintomas da hipertensão muitas vezes não são notados pelas pessoas que têm a condição, já que ela pode se desenvolver ao longo de anos sem apresentar sinais evidentes. Por isso, a hipertensão é conhecida como um "assassino silencioso". No entanto, em casos de hipertensão severa ou crises de pressão arterial muito altas, alguns sintomas podem incluir:</p>
-                <br> <br>
-                <ol>
-                    <li>Dores de cabeça severas</li>
-                    <li>Fadiga ou confusão</li>
-                    <li> Náuseas</li>
-                    <li>Dor no peito</li>
-                    <li>Dificuldade para respirar</li>
-                    <li>Batimentos cardíacos irregulares</li>
-                    <li>Sangramento pelo nariz</li>
-                    <li>Sentir pulsar no pescoço, no peito ou nas orelhas</li>               
-                </ol>
-                <br>
-                <p>Se você ou alguém próximo estiver experimentando esses sintomas, especialmente se forem novos ou severos, é importante procurar avaliação médica imediatamente, pois podem indicar uma crise hipertensiva que exige tratamento urgente.</p>
-                <br> <br>
-                <p>Para a maioria das pessoas, a melhor maneira de identificar a hipertensão é através de medições regulares da pressão arterial, seja em casa, em uma farmácia, ou no consultório do médico.</p>
-        </div>
-    </main>
-    <main id="secao2">
-        <div class="container-1" >
-            <h1>Causas</h1>
-            <p>A hipertensão pode ser classificada em dois tipos principais, cada um com suas próprias causas:</p>
-            <br>
-            <h2>1. Hipertensão Primária (ou Essencial):</h2>
-            <ul>
-                <li>Genética: Propensão familiar à hipertensão.</li>
-                <li>Idade: O risco aumenta com a idade.</li>
-                <li>Etnia: Algumas etnias têm maior risco.</li>
-                <li>Variações nos níveis de sal e água no corpo: Isso pode afetar a pressão arterial.</li>
-                <li>Alterações na função dos vasos sanguíneos: Como a redução da elasticidade.</li>
-            </ul>
-            <br>
-            <h2>2. Hipertensão Secundária:</h2>
-            <ul>
-                <li>Doenças renais</li>
-                <li>Desordens endócrinas</li>
-                <li>Uso de certos medicamentos</li>
-                <li>Problemas de tireoide</li>
-                <li>Consumo excessivo de álcool ou drogas ilícitas</li>
-            </ul>
-        </div>
-    </main>
-    <main>
-        <div class="container-1">
-            <h1>Tratamento da Hipertensão</h1>
-            <p>O tratamento da hipertensão envolve uma combinação de mudanças no estilo de vida e, quando necessário, medicação prescrita. Modificações no estilo de vida são o pilar fundamental para o controle da pressão alta e incluem uma dieta saudável com baixo teor de sódio, exercícios regulares, manutenção de um peso saudável, limitação do consumo de álcool, cessação do tabagismo e gestão do estresse. Medicamentos podem ser necessários para alguns indivíduos para manter a pressão arterial em níveis seguros. Há várias classes de medicamentos disponíveis, incluindo diuréticos, inibidores da ECA, bloqueadores dos receptores de angiotensina II, bloqueadores dos canais de cálcio, entre outros, que podem ser utilizados isoladamente ou em combinação, dependendo das necessidades específicas do paciente. O controle eficaz da hipertensão requer acompanhamento médico regular para ajustar o plano de tratamento conforme necessário e minimizar o risco de complicações.</p>
-        </div>
-    </main>
-    <main id="secao3">
-        <div class="container-1" >
-            <h1>Diagnóstico da Hipertensão</h1>
-            <p>O diagnóstico da hipertensão envolve medir a pressão arterial em várias ocasiões para confirmar se os valores estão consistentemente altos. Uma pressão arterial que se mantém em 140/90 mm Hg ou acima indica hipertensão. Após identificar a pressão arterial elevada, o médico pode solicitar exames adicionais para entender melhor as possíveis causas ou avaliar o impacto na saúde geral do paciente. Esses exames incluem análises de sangue, para verificar a saúde renal e os níveis de colesterol, e um eletrocardiograma (ECG), para examinar a atividade elétrica do coração.</p>
-            <br>
-            <p>Em alguns casos, pode ser necessário realizar mais testes, como um ecocardiograma, para obter imagens detalhadas do coração, ou testes específicos para avaliar a função renal. Esses procedimentos ajudam a determinar se há condições subjacentes contribuindo para a hipertensão e a planejar o tratamento adequado. A gestão da hipertensão normalmente envolve mudanças no estilo de vida, medicação (se necessário), e acompanhamento regular com um médico para monitorar a condição e ajustar o tratamento conforme necessário.</p>
-        </div>
-    </main>
-    <main>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MZDFdLSL6cA?si=3qMxEslN8QDoUVfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </main>
-    <main>
-        <div class="container-1">
-            <h1> Sobre a Hipertensão</h1>
-            <ul>
-                <li><a class="link"href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf">Guia de Atividade Física para a População Brasileira</a></li>
-                <li><a class="link"href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed.pdf">Guia Alimentar para a População Brasileira</a></li>
-                <li><a class="link"href="https://www.gov.br/saude/pt-br/composicao/saps">Manual de orientações para profissionais de Saúde da Atenção Básica</a></li>
-                <li><a class="link"href="https://linhasdecuidado.saude.gov.br/portal/hipertensao-arterial-sistemica-(HAS)-no-adulto/">A Linha de Cuidado voltada para os cuidados com a Hipertensão Arterial Sistêmica (HAS) no Adulto</a></li>
-            </ul>
-        </div>
-    </main>
-    
-<main class="main2" >
-    <div id="map">
-</div>
-    <div class="container-2"  id="secao4">
-    <h1 >Encontre Hospitais e UPPAs Próximos</h1>
-    <p>Se suspeitar de hipertensão ou necessitar de acompanhamento médico, nossa ferramenta "Hospitais e UPPAs Próximos" ajuda a localizar assistência rápida. Com base na sua localização, o recurso indica as unidades de saúde mais acessíveis, fornecendo endereço, horário de funcionamento e contato. Acesse facilmente essas informações e garanta um suporte eficaz para sua saúde. Priorize seu bem-estar procurando avaliação e tratamento adequados.</p>
-</div>
-</main>
-<section>
-    <div class="container">
-        <div class="text-side1"><h3>DISQUE <br>AQUI </h3></div>
-        <div class="text-side"> <h1 class="numero"><a href="tel:192" style="color:#FA8072;">192</a></h1></div>
-        <div class="text-cell">
-            <h3>DISQUE AQUI </h3>
-            <h1 class="numero"><a href="tel:192" style="color:#FA8072;">192</a></h1>
-        </div>
-        <div class="line"></div> 
-        <div class="text-side">
-          <h2 class="ouvi">Em casos mais graves ligar SAMU-DF<br></h2>
-          <P class="ouvi-2">Teleatendente 24horas.</P>
+      <div class="container-1" id="top">
+        <h1>Bem-vindo ao SaúdeBP</h1>
+        <p>
+          Seu portal sobre hipertensão, uma condição caracterizada pela pressão
+          arterial elevada que pode levar a sérias complicações de saúde se não
+          for gerenciada. Muitas vezes silenciosa, a hipertensão exige
+          conscientização e ação precoce. Aqui, você encontrará informações
+          essenciais sobre sintomas, causas, prevenção e diagnóstico, além de
+          recursos para apoio e tratamento. Vamos juntos caminhar em direção a
+          um controle efetivo da pressão arterial e a uma vida mais saudável.
+        </p>
+        <div class="foto">
+          <img src="foto2.png" alt="hipertensão" />
         </div>
       </div>
-</section>
-<footer>
-    <div class="text-footer">
+    </main>
+    <main>
+      <div class="container-1">
+        <h1>O que é Hipertensão?</h1>
+        <p>
+          A hipertensão, comumente conhecida como pressão alta, é uma condição
+          médica caracterizada por níveis elevados de pressão no sistema
+          arterial, o que significa que o coração precisa trabalhar mais do que
+          o normal para circular o sangue através dos vasos sanguíneos.
+          Especificamente, é diagnosticada quando as leituras de pressão
+          arterial de uma pessoa são consistentemente 140 milímetros de mercúrio
+          (mm Hg) para a medida sistólica (número superior) ou 90 mm Hg para a
+          medida diastólica (número inferior) ou mais.
+        </p>
+      </div>
+    </main>
+    <main>
+      <div class="container-1">
+        <h1>Consequências da Hipertensão</h1>
+        <p>
+          A hipertensão é um importante fator de risco para várias condições
+          graves de saúde. Sem tratamento, a pressão arterial elevada pode
+          causar danos significativos ao coração e aos vasos sanguíneos,
+          aumentando o risco de doença cardíaca coronariana, acidente vascular
+          cerebral (AVC), insuficiência renal e perda de visão. Além disso, a
+          hipertensão pode contribuir para a insuficiência cardíaca ao exigir
+          que o coração trabalhe mais intensamente para bombear o sangue, o que
+          pode enfraquecer o músculo cardíaco ao longo do tempo.
+        </p>
+        <br />
+        <p>
+          Por ser frequentemente assintomática, a hipertensão pode progredir sem
+          ser detectada, levando a danos nos órgãos vitais antes mesmo que o
+          indivíduo esteja ciente de sua condição. Por isso, a medição regular
+          da pressão arterial é essencial para o diagnóstico precoce e o início
+          oportuno do tratamento, minimizando assim o risco de complicações a
+          longo prazo e contribuindo para uma vida mais longa e saudável.
+        </p>
+      </div>
+    </main>
+    <main id="secao1">
+      <div class="container-1" id="secao1">
+        <h1>Sintomas</h1>
+        <p>
+          Os sintomas da hipertensão muitas vezes não são notados pelas pessoas
+          que têm a condição, já que ela pode se desenvolver ao longo de anos
+          sem apresentar sinais evidentes. Por isso, a hipertensão é conhecida
+          como um "assassino silencioso". No entanto, em casos de hipertensão
+          severa ou crises de pressão arterial muito altas, alguns sintomas
+          podem incluir:
+        </p>
+        <br />
+        <br />
+        <ol>
+          <li>Dores de cabeça severas</li>
+          <li>Fadiga ou confusão</li>
+          <li>Náuseas</li>
+          <li>Dor no peito</li>
+          <li>Dificuldade para respirar</li>
+          <li>Batimentos cardíacos irregulares</li>
+          <li>Sangramento pelo nariz</li>
+          <li>Sentir pulsar no pescoço, no peito ou nas orelhas</li>
+        </ol>
+        <br />
+        <p>
+          Se você ou alguém próximo estiver experimentando esses sintomas,
+          especialmente se forem novos ou severos, é importante procurar
+          avaliação médica imediatamente, pois podem indicar uma crise
+          hipertensiva que exige tratamento urgente.
+        </p>
+        <br />
+        <br />
+        <p>
+          Para a maioria das pessoas, a melhor maneira de identificar a
+          hipertensão é através de medições regulares da pressão arterial, seja
+          em casa, em uma farmácia, ou no consultório do médico.
+        </p>
+      </div>
+    </main>
+    <main id="secao2">
+      <div class="container-1">
+        <h1>Causas</h1>
+        <p>
+          A hipertensão pode ser classificada em dois tipos principais, cada um
+          com suas próprias causas:
+        </p>
+        <br />
+        <h2>1. Hipertensão Primária (ou Essencial):</h2>
+        <ul>
+          <li>Genética: Propensão familiar à hipertensão.</li>
+          <li>Idade: O risco aumenta com a idade.</li>
+          <li>Etnia: Algumas etnias têm maior risco.</li>
+          <li>
+            Variações nos níveis de sal e água no corpo: Isso pode afetar a
+            pressão arterial.
+          </li>
+          <li>
+            Alterações na função dos vasos sanguíneos: Como a redução da
+            elasticidade.
+          </li>
+        </ul>
+        <br />
+        <h2>2. Hipertensão Secundária:</h2>
+        <ul>
+          <li>Doenças renais</li>
+          <li>Desordens endócrinas</li>
+          <li>Uso de certos medicamentos</li>
+          <li>Problemas de tireoide</li>
+          <li>Consumo excessivo de álcool ou drogas ilícitas</li>
+        </ul>
+      </div>
+    </main>
+    <main>
+      <div class="container-1">
+        <h1>Tratamento da Hipertensão</h1>
+        <p>
+          O tratamento da hipertensão envolve uma combinação de mudanças no
+          estilo de vida e, quando necessário, medicação prescrita. Modificações
+          no estilo de vida são o pilar fundamental para o controle da pressão
+          alta e incluem uma dieta saudável com baixo teor de sódio, exercícios
+          regulares, manutenção de um peso saudável, limitação do consumo de
+          álcool, cessação do tabagismo e gestão do estresse. Medicamentos podem
+          ser necessários para alguns indivíduos para manter a pressão arterial
+          em níveis seguros. Há várias classes de medicamentos disponíveis,
+          incluindo diuréticos, inibidores da ECA, bloqueadores dos receptores
+          de angiotensina II, bloqueadores dos canais de cálcio, entre outros,
+          que podem ser utilizados isoladamente ou em combinação, dependendo das
+          necessidades específicas do paciente. O controle eficaz da hipertensão
+          requer acompanhamento médico regular para ajustar o plano de
+          tratamento conforme necessário e minimizar o risco de complicações.
+        </p>
+      </div>
+    </main>
+    <main id="secao3">
+      <div class="container-1">
+        <h1>Diagnóstico da Hipertensão</h1>
+        <p>
+          O diagnóstico da hipertensão envolve medir a pressão arterial em
+          várias ocasiões para confirmar se os valores estão consistentemente
+          altos. Uma pressão arterial que se mantém em 140/90 mm Hg ou acima
+          indica hipertensão. Após identificar a pressão arterial elevada, o
+          médico pode solicitar exames adicionais para entender melhor as
+          possíveis causas ou avaliar o impacto na saúde geral do paciente.
+          Esses exames incluem análises de sangue, para verificar a saúde renal
+          e os níveis de colesterol, e um eletrocardiograma (ECG), para examinar
+          a atividade elétrica do coração.
+        </p>
+        <br />
+        <p>
+          Em alguns casos, pode ser necessário realizar mais testes, como um
+          ecocardiograma, para obter imagens detalhadas do coração, ou testes
+          específicos para avaliar a função renal. Esses procedimentos ajudam a
+          determinar se há condições subjacentes contribuindo para a hipertensão
+          e a planejar o tratamento adequado. A gestão da hipertensão
+          normalmente envolve mudanças no estilo de vida, medicação (se
+          necessário), e acompanhamento regular com um médico para monitorar a
+          condição e ajustar o tratamento conforme necessário.
+        </p>
+      </div>
+    </main>
+    <main>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MZDFdLSL6cA?si=3qMxEslN8QDoUVfm"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </main>
+    <main>
+      <div class="container-1">
+        <h1>Sobre a Hipertensão</h1>
+        <ul>
+          <li>
+            <a
+              class="link"
+              href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+              >Guia de Atividade Física para a População Brasileira</a
+            >
+          </li>
+          <li>
+            <a
+              class="link"
+              href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed.pdf"
+              >Guia Alimentar para a População Brasileira</a
+            >
+          </li>
+          <li>
+            <a
+              class="link"
+              href="https://www.gov.br/saude/pt-br/composicao/saps"
+              >Manual de orientações para profissionais de Saúde da Atenção
+              Básica</a
+            >
+          </li>
+          <li>
+            <a
+              class="link"
+              href="https://linhasdecuidado.saude.gov.br/portal/hipertensao-arterial-sistemica-(HAS)-no-adulto/"
+              >A Linha de Cuidado voltada para os cuidados com a Hipertensão
+              Arterial Sistêmica (HAS) no Adulto</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <main class="main2">
+      <div id="map"></div>
+      <div class="container-2" id="secao4">
+        <h1>Encontre Hospitais e UPPAs Próximos</h1>
+        <p>
+          Se suspeitar de hipertensão ou necessitar de acompanhamento médico,
+          nossa ferramenta "Hospitais e UPPAs Próximos" ajuda a localizar
+          assistência rápida. Com base na sua localização, o recurso indica as
+          unidades de saúde mais acessíveis, fornecendo endereço, horário de
+          funcionamento e contato. Acesse facilmente essas informações e garanta
+          um suporte eficaz para sua saúde. Priorize seu bem-estar procurando
+          avaliação e tratamento adequados.
+        </p>
+      </div>
+    </main>
+    <section>
+      <div class="container">
+        <div class="text-side1">
+          <h3>DISQUE <br />AQUI</h3>
+        </div>
+        <div class="text-side">
+          <h1 class="numero">
+            <a href="tel:192" style="color: #fa8072">192</a>
+          </h1>
+        </div>
+        <div class="text-cell">
+          <h3>DISQUE AQUI</h3>
+          <h1 class="numero">
+            <a href="tel:192" style="color: #fa8072">192</a>
+          </h1>
+        </div>
+        <div class="line"></div>
+        <div class="text-side">
+          <h2 class="ouvi">Em casos mais graves ligar SAMU-DF<br /></h2>
+          <p class="ouvi-2">Teleatendente 24horas.</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text-footer">
         <p>© 2024 SaúdeBP - Todos os direitos reservados.</p>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-
-
-<!-- java-script -->
-      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-      <script src="/src/js/script.js"></script>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script> new window.VLibras.Widget('https://vlibras.gov.br/app'); </script>
-      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
-    <script defer src="/src/js/nav.js"></script>
-</body>
+    <!-- java-script -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="../projeto-hipertençao/src/js/script.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script defer src="../projeto-hipertençao/src/js/nav.js"></script>
+  </body>
 </html>
